@@ -1,6 +1,15 @@
 @import url('fonts.css');
 @import url('global.css');
+:root{
+	--white: rgba(255, 255, 255);
+	--black: rgba(0, 0, 0);
+	--background-quaternary: rgb(240, 242, 245);
+}
 .header{
 	width: 100%;
-	background-color: var(--black);
+}
+.header__top{
+	width: 100%;
+	min-height: 32px;
+	background-color: var(--background-quaternary);
 }
