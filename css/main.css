@@ -1,2 +1,6 @@
-@import 'fonts.css';
-@import 'global.css';
+@import url('fonts.css');
+@import url('global.css');
+.header{
+	width: 100%;
+	background-color: var(--black);
+}
